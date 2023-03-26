@@ -1,8 +1,8 @@
 ===========
-reportlibgw
+reportlabgw
 ===========
 
-This is the documentation of **reportlibgw**.
+This is the documentation of **reportlabgw**.
 
 .. note::
 

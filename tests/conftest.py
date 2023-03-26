@@ -1,5 +1,5 @@
 """
-    Dummy conftest.py for reportlibgw.
+    Dummy conftest.py for reportlabgw.
 
     If you don't know what this is for, just leave it empty.
     Read more about conftest.py under:

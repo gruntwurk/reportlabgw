@@ -1,10 +1,10 @@
 import pytest
 
-from reportlibgw.skeleton import fib, main
+from reportlabgw.skeleton import fib, main
 
-__author__ = "Craig Jones"
-__copyright__ = "Craig Jones"
-__license__ = "MIT"
+__author__ = "Craig Jones (polyglot-jones)"
+__copyright__ = "2021-23, Craig Jones (polyglot-jones)"
+__license__ = "BSD-3-Clause"
 
 
 def test_fib():

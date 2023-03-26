@@ -1,27 +1,27 @@
 .. These are examples of badges you might want to add to your README:
    please update the URLs accordingly
 
-    .. image:: https://api.cirrus-ci.com/github/<USER>/reportlibgw.svg?branch=main
+    .. image:: https://api.cirrus-ci.com/github/<USER>/reportlabgw.svg?branch=main
         :alt: Built Status
-        :target: https://cirrus-ci.com/github/<USER>/reportlibgw
-    .. image:: https://readthedocs.org/projects/reportlibgw/badge/?version=latest
+        :target: https://cirrus-ci.com/github/<USER>/reportlabgw
+    .. image:: https://readthedocs.org/projects/reportlabgw/badge/?version=latest
         :alt: ReadTheDocs
-        :target: https://reportlibgw.readthedocs.io/en/stable/
-    .. image:: https://img.shields.io/coveralls/github/<USER>/reportlibgw/main.svg
+        :target: https://reportlabgw.readthedocs.io/en/stable/
+    .. image:: https://img.shields.io/coveralls/github/<USER>/reportlabgw/main.svg
         :alt: Coveralls
-        :target: https://coveralls.io/r/<USER>/reportlibgw
-    .. image:: https://img.shields.io/pypi/v/reportlibgw.svg
+        :target: https://coveralls.io/r/<USER>/reportlabgw
+    .. image:: https://img.shields.io/pypi/v/reportlabgw.svg
         :alt: PyPI-Server
-        :target: https://pypi.org/project/reportlibgw/
-    .. image:: https://img.shields.io/conda/vn/conda-forge/reportlibgw.svg
+        :target: https://pypi.org/project/reportlabgw/
+    .. image:: https://img.shields.io/conda/vn/conda-forge/reportlabgw.svg
         :alt: Conda-Forge
-        :target: https://anaconda.org/conda-forge/reportlibgw
-    .. image:: https://pepy.tech/badge/reportlibgw/month
+        :target: https://anaconda.org/conda-forge/reportlabgw
+    .. image:: https://pepy.tech/badge/reportlabgw/month
         :alt: Monthly Downloads
-        :target: https://pepy.tech/project/reportlibgw
+        :target: https://pepy.tech/project/reportlabgw
     .. image:: https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Twitter
         :alt: Twitter
-        :target: https://twitter.com/reportlibgw
+        :target: https://twitter.com/reportlabgw
 
 .. image:: https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold
     :alt: Project generated with PyScaffold
@@ -30,17 +30,35 @@
 |
 
 ===========
-reportlibgw
+reportlabgw
 ===========
 
 
-    Add a short description here!
+    'TODO'
 
 
 A longer description of your project goes here...
 
 
 .. _pyscaffold-notes:
+
+Making Changes & Contributing
+=============================
+
+This project uses `pre-commit`_, please make sure to install it before making any
+changes::
+
+    pip install pre-commit
+    cd reportlabgw
+    pre-commit install
+
+It is a good idea to update the hooks to the latest version::
+
+    pre-commit autoupdate
+
+Don't forget to tell your contributors to also install and use pre-commit.
+
+.. _pre-commit: https://pre-commit.com/
 
 Note
 ====
