@@ -1,0 +1,5 @@
+flake8
+isort>=5.12.0
+pytest>=5.4.3
+tox
+wheel
